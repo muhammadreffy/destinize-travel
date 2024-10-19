@@ -45,8 +45,8 @@ nav:nth-child(1){
   gap: .6rem;
   align-items: center;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  padding: 1rem 7%;
-  border-bottom: .1rem solid var(--gray-300);
+  padding: 1rem 5%;
+  border-bottom: .1rem solid var(--gray-200);
 }
 
 .header__icon{
@@ -164,7 +164,7 @@ nav:nth-child(2){
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.2rem 7%;
+  padding: 1.2rem 5%;
   width: 100%;
 }
 
@@ -231,7 +231,7 @@ nav:nth-child(2) .header__container-profile{
 }
 
 main {
-  padding: 0 7%;
+  padding: 0 5%;
   margin: 2rem 0;
 }
 
@@ -387,7 +387,7 @@ main {
   }
 
   nav:nth-child(2){
-    padding: 1rem 7%;
+    padding: 1rem 5%;
     column-gap: 2rem;
     overflow-x: scroll;
     scrollbar-color: transparent transparent;
@@ -437,6 +437,10 @@ main {
 
   .hero__image{
     width: 20rem;
+  }
+
+  .partners__logo_container {
+    justify-content: normal;
   }
 
   .partners__logo_container .partners__logo{
