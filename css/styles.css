@@ -374,6 +374,8 @@ main {
 .header__destinations p{
   color: var(--blue-600);
   font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .header__destinations a{
@@ -527,6 +529,10 @@ main {
   }
 
   /* DESTINATIONS */
+  .header__destinations p{
+    font-size: 1rem;
+  }
+
   .header__destinations .header__title_destinations{
     align-items: normal;
     flex-direction: column;
