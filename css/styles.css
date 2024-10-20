@@ -665,6 +665,95 @@ main {
   background-color: var(--blue-700);
 }
 
+/* TOURIST MAP */
+.header__tourist_map{
+  margin-top: 5rem;
+  margin-inline: auto;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: .3rem;
+  text-align: center;
+  color: var(--blue-900);
+}
+
+.header__tourist_map h4{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: var(--blue-700);
+}
+
+.header__tourist_map h2{
+  font-size: 2rem;
+}
+
+.header__tourist_map h2 span{
+  font-size: 1.5rem;
+}
+
+#touristMap img{
+  margin-top: 2rem;
+  margin-inline: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.container__tourist_map__content{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container__tourist_map__content .container__tourist_map_desc{
+  display: flex;
+  gap: 1rem;
+}
+
+.container__tourist_map__content .container__tourist_map_desc span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--gray-200);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 99999px;
+  -webkit-border-radius: 99999px;
+  -moz-border-radius: 99999px;
+  -ms-border-radius: 99999px;
+  -o-border-radius: 99999px;
+}
+
+.container__tourist_map__content
+.container__tourist_map_desc
+.tourist_map__desc{
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.container__tourist_map__content
+.container__tourist_map_desc
+.tourist_map__desc h5{
+  font-size: 1.3rem;
+  color: var(--blue-900);
+}
+
+.container__tourist_map__content
+.container__tourist_map_desc
+.tourist_map__desc p{
+  color: var(--gray-400);
+}
+
 @media screen and (max-width: 640px) {
   .header__form, .header__language, .header__location {
     display: none;
@@ -795,5 +884,41 @@ main {
   .reservation__floating_card{
     position: static;
     margin-top: 1rem;
+  }
+
+  /* TOURIST MAP */
+
+  .header__tourist_map{
+    width: 100%;
+  }
+
+  .header__tourist_map h4{
+    font-size: .8rem;
+  }
+
+  .header__tourist_map p{
+    font-size: .9rem;
+  }
+
+  .header__tourist_map h2{
+    font-size: 1.3rem;
+  }
+
+  .header__tourist_map h2 span{
+    font-size: .8rem;
+  }
+
+  .header__tourist_map p{
+    font-size: .9rem;
+  }
+
+  .container__tourist_map__content{
+    flex-direction: column;
+  }
+
+  .container__tourist_map__content
+  .container__tourist_map_desc
+  .tourist_map__desc h5{
+    font-size: 1rem;
   }
 }
