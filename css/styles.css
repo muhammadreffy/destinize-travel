@@ -710,7 +710,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .container__tourist_map__content .container__tourist_map_desc{
@@ -893,15 +893,16 @@ main {
   }
 
   .header__tourist_map h4{
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .header__tourist_map p{
     font-size: .9rem;
+    color: var(--gray-400);
   }
 
   .header__tourist_map h2{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .header__tourist_map h2 span{
@@ -909,11 +910,17 @@ main {
   }
 
   .header__tourist_map p{
-    font-size: .9rem;
+    font-size: 1rem;
+  }
+
+  #touristMap img{
+    margin-top: 1.5rem;
   }
 
   .container__tourist_map__content{
+    margin-top: 1rem;
     flex-direction: column;
+    gap: 1rem;
   }
 
   .container__tourist_map__content
