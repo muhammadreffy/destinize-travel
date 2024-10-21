@@ -1283,8 +1283,13 @@ main {
 
   .container__card_testimonials{
     overflow: scroll;
+    scrollbar-color: transparent transparent;
     margin-top: 1.8rem;
     gap: 2rem;
+  }
+
+  .container__card_testimonials::-webkit-scrollbar{
+    display: none;
   }
 
   .card__testimonial figcaption{
