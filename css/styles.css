@@ -1203,6 +1203,7 @@ main {
   display: flex;
   align-items: center;
   gap: .6rem;
+  font-weight: 500;
 }
 
 
