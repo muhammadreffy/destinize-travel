@@ -1165,6 +1165,46 @@ main {
   overflow: visible;
 }
 
+#cta{
+  margin-top: 5rem;
+}
+
+.cta__container{
+  background-color: var(--blue-600);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .8rem;
+  -webkit-border-radius: .8rem;
+  -moz-border-radius: .8rem;
+  -ms-border-radius: .8rem;
+  -o-border-radius: .8rem;
+}
+
+.cta__container .cta__content_text{
+  padding: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cta__container .cta__content_text h2{
+  font-size: 2rem;
+}
+
+.cta__container .cta__content_text p{
+  color: var(--gray-200);
+  font-weight: 300;
+}
+
+.cta__container .cta__content_text a{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
 
 @media screen and (max-width: 640px) {
   .header__form, .header__language, .header__location {
@@ -1504,5 +1544,22 @@ main {
 
   .faqs__accordion_container .faq__box .faq__question .faq__chevron_container i {
     font-size: .6rem;
+  }
+
+  /* CTA */
+  .cta__container .cta__content_text {
+    padding: 2rem;
+  }
+
+  .cta__container .cta__content_text h2 {
+    font-size: 2rem;
+  }
+
+  .cta__container .cta__content_text h2 br{
+    display: none;
+  }
+
+  .cta__container img{
+    display: none;
   }
 }
